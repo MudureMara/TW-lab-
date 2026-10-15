@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
@@ -14,20 +14,30 @@
             <img src="../MEDIA/images.png" alt="Imagine login">
         </div>
 
+        <div class="separator"></div>
 
-    <div class="separator"></div>
+        <div class="login-form">
+            <h2>Autentificare</h2>
 
-    <div class="login-form">
-        <h2>Autentificare</h2>
-        <input type="email" placeholder="Adresa de email">
-        <input type="password" placeholder="Parola">
-        <button type="button" onclick="window.location.href='home.html'">Conectare</button>
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Adresa de email">
 
-        <p class="register-text">Nu ai cont? <a href="register.html">Înregistrează-te</a>
-        </p>
+                <input type="password" id="password" placeholder="Parola">
+
+                <button type="submit">Conectare</button>
+            </form>
+
+            <p class="register-text">
+                Nu ai cont?
+                <a href="register.html">Înregistrează-te</a>
+            </p>
+            <p>
+    <a href="chatbot.html">Deschide Chatbot</a>
+</p>
+        </div>
     </div>
-</div>
+   
 
-
+    <script src="../JS/login_js.js"></script>
 </body>
 </html>
